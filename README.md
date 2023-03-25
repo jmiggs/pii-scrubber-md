@@ -1,4 +1,4 @@
-PII SCRUBBER
+## PII SCRUBBER
 Hello! This basic scrubber script should cover all test cases included in the assignment
 
 ## Requirements
