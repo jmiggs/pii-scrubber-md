@@ -18,3 +18,7 @@ Please feel free to run the below command to verify all sample inputs are correc
   ruby ./tests/unit_testing.rb
 ```
 These tests take in the inputs from each example, run the scrubber on them, and compare the outcome to the expected
+
+## dev concerns
+in the time alloted I was only able to address the provided cases in the tests directory. Something that might cause error is deeply nested JSON
+objects containing various different types of values.
