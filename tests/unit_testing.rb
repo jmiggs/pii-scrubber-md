@@ -1,4 +1,4 @@
-load "scrub.rb"
+load "./src/scrubber.rb"
 
 test_dir = "./tests"
 test_results = {}
@@ -8,7 +8,6 @@ test_results = {}
 # then test equality of actual and expected (expected coming from output)
 Dir.children(test_dir).each do |sub_dir|
     next if sub_dir == "unit_testing.rb"
-
     test_files = Dir.children(test_dir + '/' + sub_dir)
 
     input_path = test_dir + '/' + sub_dir + '/' + test_files[0]
