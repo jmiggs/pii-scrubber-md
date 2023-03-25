@@ -5,8 +5,8 @@ Hello! This basic scrubber script should cover all test cases included in the as
 - ruby 3.2.0 (this is the version I used on my system to develop the script)
 
 ## How To Use
-1. clone this directory onto device
-2. from terminal, cd into the project directory, pii-scrub-mig-delacruz
+1. Download Zip and extract onto system
+2. from terminal, cd into the project directory, pii-scrub-mig-delacruz-master
 3. run the following command
   ```
     ruby scrub.rb **PATH TO SENSITIVE-FIELDS.TXT** **PATH TO JSON INPUT **
